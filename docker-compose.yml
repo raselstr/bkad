@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   bkad-app:
     container_name: bkad_app
@@ -7,6 +6,11 @@ services:
     networks:
       - db_network
       - web_network
+      - app-network
+    depends_on:
+      db:
+        condition: service_healthy
+
   nginx:
     container_name: nginx
     restart: always
@@ -19,9 +23,34 @@ services:
       - web_network
     depends_on: 
       - bkad-app
+
+  db:
+    image: postgres:latest
+    container_name: db_center
+    restart: always
+    environment:
+      POSTGRES_DB: datacenter
+      POSTGRES_USER: raselstr
+      POSTGRES_PASSWORD: r283l8tr
+    ports:
+      - "5433:5432"  # Gunakan port berbeda dari database di YML 1
+    networks:
+      - db_network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U raselstr -d datacenter"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  postgres_data:
 networks:
   db_network:
     driver: bridge
   web_network:
+    driver: bridge
+  app-network:
     driver: bridge
  

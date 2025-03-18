@@ -14,6 +14,8 @@ class LoginRequiredMiddleware:
         exempt_urls = [
             'login',  # Name of your login URL
             'logout',  # Name of your logout URL
+            'register',
+            'password_reset',
             'admin:index',  # Admin index URL
             # Add other exempt URLs here
         ]

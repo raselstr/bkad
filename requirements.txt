@@ -1,15 +1,11 @@
-# Core
-django==4.2.9
-python-dotenv==1.0.1
-str2bool==1.1
-
-# UI 
+asgiref==3.8.1
+Django==4.2.9
 django-admin-berry==1.0.15
-
-# Deployment
-whitenoise==6.6.0
 gunicorn==21.2.0
-
-# DB Layer
-# psycopg2-binary
-# mysqlclient
+packaging==24.2
+psycopg2==2.9.10
+python-dotenv==1.0.1
+sqlparse==0.5.3
+str2bool==1.1
+tzdata==2025.1
+whitenoise==6.6.0
