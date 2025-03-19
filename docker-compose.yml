@@ -23,10 +23,24 @@ services:
       - web_network
     depends_on: 
       - bkad-app
+  
+  adminer:
+    image: adminer:latest
+    container_name: adminercenter
+    restart: always
+    ports:
+      - "8081:8080" 
+    networks:
+      - web_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   db:
     image: postgres:latest
-    container_name: db
+    container_name: db_datacenter
     restart: always
     environment:
       POSTGRES_DB: datacenter
