@@ -11,12 +11,14 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import environ
 import os, random, string, inspect, secrets
+import dj_database_url
 from pathlib import Path
 
 
 env = environ.Env(
     DEBUG=(bool, False)
 )
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -95,12 +97,22 @@ WSGI_APPLICATION = "core.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-
-DATABASES = {
-    'default': env.db(),
+USE_ENV_DATABASE = env.bool("USE_ENV_DATABASE", default=True)
+if USE_ENV_DATABASE:
+    DATABASES = {
+        'default': dj_database_url.config(default=env('DATABASE_URL'))
     }
-
-
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': env('DB_ENGINE'),
+            'NAME': env('DB_NAME'),
+            'USER': env('DB_USERNAME'),
+            'PASSWORD': env('DB_PASSWORD'),
+            'HOST': env('DB_HOST'),
+            'PORT': env('DB_PORT'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
