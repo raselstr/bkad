@@ -3,12 +3,13 @@ services:
     container_name: bkad_app
     restart: always
     build: .
+    env_file:
+      - .env
     networks:
-      - db_network
-      - web_network
-      - app-network
+      app-network:
+        ipv4_address: 10.10.10.14
     depends_on:
-      db:
+      db-center:
         condition: service_healthy
 
   nginx:
@@ -20,7 +21,8 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
     networks:
-      - web_network
+      app-network:
+        ipv4_address: 10.10.10.15
     depends_on: 
       - bkad-app
   
@@ -29,31 +31,32 @@ services:
     container_name: adminercenter
     restart: always
     ports:
-      - "8081:8080" 
+      - "8081:8080"
     networks:
-      - web_network
+      app-network:
+        ipv4_address: 10.10.10.16
+
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
       interval: 30s
       timeout: 10s
       retries: 3
 
-  db:
+  db-center:
     image: postgres:latest
     container_name: db_datacenter
     restart: always
-    environment:
-      POSTGRES_DB: datacenter
-      POSTGRES_USER: raselstr
-      POSTGRES_PASSWORD: r283l8tr
+    env_file:
+      - .env
     ports:
       - "5433:5432"  # Gunakan port berbeda dari database di YML 1
     networks:
-      - db_network
+      app-network:
+        ipv4_address: 10.10.10.17
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U raselstr -d datacenter"]
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER -d $POSTGRES_DB"]
       interval: 10s
       retries: 5
       start_period: 10s
@@ -61,10 +64,9 @@ services:
 volumes:
   postgres_data:
 networks:
-  db_network:
-    driver: bridge
-  web_network:
-    driver: bridge
   app-network:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.10.0/24
  

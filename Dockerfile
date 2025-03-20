@@ -15,7 +15,7 @@ WORKDIR /bkad/
 RUN python manage.py collectstatic --noinput
 
 # running migrations
-RUN python manage.py migrate
+# RUN python manage.py migrate
 
 # gunicorn
 CMD ["gunicorn", "--config", "gunicorn-cfg.py", "core.wsgi"]

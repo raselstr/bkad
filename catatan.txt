@@ -1,0 +1,5 @@
+Melakukan migrate di docker
+    - docker-compose exec bkad-app python manage.py migrate
+
+membuat requirement.txt
+    - pip freeze > requirements.txt
