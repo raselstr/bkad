@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Group List</title>
+</head>
+<body>
+    <h2>Daftar Grup</h2>
+    <ul>
+        {% for group in groups %}
+            <li>
+                {{ group.name }} - 
+                <a href="{% url 'edit_group_permissions' group.id %}">Edit Permissions</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
