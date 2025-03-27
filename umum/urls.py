@@ -1,7 +1,10 @@
 from django.urls import path
-from .views import edit_group_permissions, group_list
+from . import views
 
+app_name = 'umum'
 urlpatterns = [
-    path('groups/', group_list, name='group_list'),
-    path('group/<int:group_id>/edit/', edit_group_permissions, name='edit_group_permissions'),
+    path('groups/filter/', views.filter, name='filter'),
+    path('groups/add/', views.group_add, name='add'),
+    path('groups/', views.group_list, name='list'),
+    path('group/<int:group_id>/edit/', views.edit, name='edit'),
 ]
