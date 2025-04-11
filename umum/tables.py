@@ -38,6 +38,7 @@ class GroupTable(tables.Table):
         model = Group
         template_name = "django_tables2/bootstrap5.html"
         fields = ("id", "name")
+        order_by = '-id'
         attrs = {
             "class": "table table-sm table-striped table-bordered table-hover table-responsive",
             "thead": {"class": "table-dark"},
