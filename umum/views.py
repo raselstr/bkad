@@ -51,7 +51,7 @@ def edit(request, group_id):
             return JsonResponse({}, status=204, headers={"HX-Trigger": "confirm_modal"})
         else:
             # Form tidak valid, render ulang modal dengan error
-            return render(request, 'umum/filter.html', {
+            return render(request, 'umum/modal.html', {
                 'form': form,
                 'title': 'Edit Group',
                 'action_url': reverse('umum:edit', args=[group.id])
@@ -59,7 +59,7 @@ def edit(request, group_id):
 
     # GET: tampilkan form edit di modal
     form = GroupForm(instance=group)
-    return render(request, 'umum/filter.html', {
+    return render(request, 'umum/modal.html', {
         'form': form,
         'title': 'Edit Group',
         'action_url': reverse('umum:edit', args=[group.id])
@@ -73,10 +73,9 @@ def add(request):
             return JsonResponse({}, status=204, headers={"HX-Trigger": "confirm_modal"})
         else:
             # ❗ JANGAN return layout lengkap
-            return render(request, 'umum/filter.html', {
+            return render(request, 'umum/modal.html', {
                 'form': form,
                 'title': 'Add Group',
-                'action_url': reverse('umum:add')
             })
 
     return render(request, 'umum/group_list.html', {
@@ -85,13 +84,14 @@ def add(request):
         'action_url': reverse('umum:add')
     })
 
-def filter(request):
+def modal(request):
     form = GroupForm(request.GET or None)
     context = {
         'form': form,
         'title': 'Add Group',
+        'action_url': reverse('umum:add')
     }
-    return render(request, 'umum/filter.html', context)
+    return render(request, 'umum/modal.html', context)
 
 def list(request):
     table = GroupTable(Group.objects.all())
@@ -102,7 +102,7 @@ def list(request):
         'form': form,
         'title': 'Group List',
         'url_add': reverse('umum:add'),
-        'url_filter' : reverse('umum:filter')
+        'url_modal' : reverse('umum:modal')
     }
     return render(request, 'umum/group_list.html', context)
     

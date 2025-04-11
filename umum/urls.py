@@ -3,7 +3,7 @@ from . import views
 
 app_name = 'umum'
 urlpatterns = [
-    path('groups/filter/', views.filter, name='filter'),
+    path('groups/modal/', views.modal, name='modal'),
     path('groups/add/', views.add, name='add'),
     path('groups/', views.list, name='list'),
     path('group/<int:group_id>/role/', views.role, name='role'),
