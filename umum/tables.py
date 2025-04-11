@@ -11,11 +11,11 @@ class GroupTable(tables.Table):
             <a href="#"
                 class="btn btn-warning btn-sm"
                 hx-get="{% url 'umum:edit' record.id %}"
-                hx-target="#filter .modal-content"
+                hx-target="#modal-form .modal-content"
                 hx-trigger="click"
                 hx-swap="innerHTML"
                 data-bs-toggle="modal"
-                data-bs-target="#filter">
+                data-bs-target="#modal-form">
                 <i class="ti ti-edit"></i> Edit
             </a>
             <button 
@@ -25,7 +25,7 @@ class GroupTable(tables.Table):
                     hx-trigger="click"
                     hx-swap="innerHTML"
                     data-bs-toggle="modal"
-                    data-bs-target="#filter">
+                    data-bs-target="#modal-form">
                     <i class="ti ti-trash"></i> Delete
                 </button>
         ''',

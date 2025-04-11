@@ -11,3 +11,43 @@
 <!-- [Template CSS Files] -->
 <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" id="main-style-link" />
 <link rel="stylesheet" href="{% static 'assets/css/style-preset.css' %}" id="preset-style-link" />
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+
+<style>
+  /* Styling untuk DataTables */
+  div.dataTables_wrapper div.dataTables_length,
+  div.dataTables_wrapper div.dataTables_filter {
+    margin-bottom: 1rem;
+  }
+
+  .dataTables_length select,
+  .dataTables_filter input {
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ccc;
+  }
+
+  /* Tambahan spacing */
+  .dataTables_filter {
+    float: right !important;
+    margin-left: 1rem !important;
+  }
+
+  .dataTables_length {
+    float: left !important;
+  }
+
+  .dataTables_wrapper .row {
+    align-items: center;
+  }
+
+  .alert-fixed {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1050;
+    min-width: 300px;
+  }
+</style>

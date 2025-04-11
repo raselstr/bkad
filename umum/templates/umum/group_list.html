@@ -42,11 +42,11 @@
                   hx-target="#modal-content"
                   hx-swap="innerHTML"
                   data-bs-toggle="modal"
-                  data-bs-target="#filter">
+                  data-bs-target="#modal-form">
                   <i class="ti ti-layout-grid-add"></i> Add group
                 </a>
             </div>
-            <div class="card-body" id="group-table">
+            <div class="card-body">
                   {% render_table table %}
             </div>
           </div>
@@ -58,55 +58,8 @@
   </div>
   <!-- [ Main Content ] end -->
 
-
-  <!-- Modal -->
-  <div class="modal fade" id="filter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content" id="modal-content">
-        <!-- Form dimuat di sini via HTMX -->
-      </div>
-    </div>
-  </div>
-
-
+{% include "includes/modal_include.html" %}
+  
 {% endblock content %}
-{% block extrastyle %}
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
-{% endblock extrastyle %}
-{% block extra_js %}
-<script src="https://unpkg.com/htmx.org@2.0.2/dist/htmx.js" integrity="sha384-yZq+5izaUBKcRgFbxgkRYwpHhHHCpp5nseXp0MEQ1A4MTWVMnqkmcuFez8x5qfxr" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-
-<script>
-  document.body.addEventListener("confirm_modal", function () {
-    const modalEl = document.getElementById("filter");
-    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
-    modal.hide();
-    window.location.reload()
-  });
-</script>
-<script>
-    $(document).ready(function () {
-      $('#groupTable').DataTable({
-        responsive: true,
-        pageLength: 10,
-        lengthMenu: [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
-        language: {
-          search: "Cari:",
-          lengthMenu: "Tampilkan _MENU_ data per halaman",
-          info: "Menampilkan _START_ - _END_ dari _TOTAL_ data",
-          paginate: {
-            previous: "Sebelumnya",
-            next: "Berikutnya"
-          }
-        }
-      });
-    });
-  </script>
-{% endblock extra_js %}
-
 
 
