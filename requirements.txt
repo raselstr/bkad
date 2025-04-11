@@ -3,6 +3,7 @@ dj-database-url==2.3.0
 Django==4.2.9
 django-admin-berry==1.0.15
 django-environ==0.12.0
+django-tables2==2.7.5
 gunicorn==21.2.0
 packaging==24.2
 psycopg2==2.9.10

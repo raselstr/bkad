@@ -1,0 +1,17 @@
+<form method="post"
+      hx-post="{% url 'umum:delete' group.id %}"
+      hx-target="#modal-content"
+      hx-swap="innerHTML">
+  {% csrf_token %}
+  <div class="modal-header bg-danger text-white">
+    <h5 class="modal-title">Konfirmasi Hapus</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+  </div>
+  <div class="modal-body">
+    <p>Yakin ingin menghapus grup <strong>{{ group.name }}</strong>?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="submit" class="btn btn-danger">Ya, Hapus</button>
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+  </div>
+</form>
