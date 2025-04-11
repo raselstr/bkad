@@ -30,7 +30,7 @@ class GroupTable(tables.Table):
                 </button>
         ''',
         verbose_name="Actions",
-        orderable=False,
+        # orderable=False,
         attrs={"td": {"class": "text-center"}},
     )
     
@@ -38,9 +38,9 @@ class GroupTable(tables.Table):
         model = Group
         template_name = "django_tables2/bootstrap5.html"
         fields = ("id", "name")
-        order_by = '-id'
         attrs = {
-            "class": "table table-sm table-striped table-bordered table-hover table-responsive",
+            "class": "table table-striped table-hover table-bordered table-sm display nowrap w-100 align-middle",
+            "id": "groupTable",
             "thead": {"class": "table-dark"},
             "th": {"class": "text-center"},
             }

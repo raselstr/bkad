@@ -1,11 +1,12 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.template.loader import render_to_string
 from django.urls import reverse
 from django.contrib.auth.models import Group
 from .forms import GroupPermissionForm, GroupForm
 from django.contrib import messages
 from django.urls import reverse
+from django.db.models import Q
 
 from .tables import GroupTable
 
@@ -94,16 +95,70 @@ def modal(request):
     return render(request, 'umum/modal.html', context)
 
 def list(request):
-    table = GroupTable(Group.objects.all())
-    table.paginate(page=request.GET.get("page", 1), per_page=10)
-    form = GroupForm(request.GET or None)
+    queryset = Group.objects.all().order_by('id')
+    table = GroupTable(queryset)  # TANPA table.paginate()
+
     context = {
         'table': table,
-        'form': form,
         'title': 'Group List',
         'url_add': reverse('umum:add'),
-        'url_modal' : reverse('umum:modal')
+        'url_modal': reverse('umum:modal'),
     }
     return render(request, 'umum/group_list.html', context)
+
+# def list(request):
+#     table = GroupTable(Group.objects.all().order_by('id'))
+#     table.paginate(page=request.GET.get("page", 1), per_page=10)
+#     form = GroupForm(request.GET or None)
+#     context = {
+#         'table': table,
+#         'form': form,
+#         'title': 'Group List',
+#         'url_add': reverse('umum:add'),
+#         'url_modal' : reverse('umum:modal')
+#     }
+#     return render(request, 'umum/group_list.html', context)
+
+# def list(request):
+#     search_query = request.GET.get('search', '')
+#     per_page = request.GET.get('per_page', '10')
+
+#     if per_page == 'all':
+#         per_page = None
+#     else:
+#         try:
+#             per_page = int(per_page)
+#         except ValueError:
+#             per_page = 10
+
+#     queryset = Group.objects.all().order_by('id')
+#     if search_query:
+#         queryset = queryset.filter(
+#             Q(name__icontains=search_query)
+#             # Q(description__icontains=search_query)
+#         )
+
+#     table = GroupTable(queryset)
+#     if per_page:
+#         table.paginate(page=request.GET.get("page", 1), per_page=per_page)
+
+#     context = {
+#         'table': table,
+#         'search_query': search_query,
+#         'per_page': request.GET.get('per_page', '10'),
+#     }
+
+#     if request.htmx:
+#         html = render_to_string('umum/partials/group_table_partial.html', context, request=request)
+#         return HttpResponse(html)
+
+#     # Full page render
+#     context.update({
+#         'form': GroupForm(request.GET or None),
+#         'title': 'Group List',
+#         'url_add': reverse('umum:add'),
+#         'url_modal': reverse('umum:modal'),
+#     })
+#     return render(request, 'umum/group_list.html', context)
     
 
