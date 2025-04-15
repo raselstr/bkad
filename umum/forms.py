@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth.models import Group, Permission
+from django.contrib.contenttypes.models import ContentType
 
 class GroupPermissionForm(forms.ModelForm):
     permissions = forms.ModelMultipleChoiceField(
