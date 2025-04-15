@@ -4,6 +4,7 @@ from django.shortcuts import redirect
 from django.conf import settings
 from django.contrib.auth import logout
 from django.urls import resolve
+from django.template.loader import render_to_string
 
 class LoginRequiredMiddleware:
     def __init__(self, get_response):
@@ -52,3 +53,26 @@ class AutoLogoutMiddleware:
         request.session['last_activity'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
 
         return self.get_response(request)
+
+class SessionPingInjectorMiddleware:
+    def __init__(self, get_response):
+        self.get_response = get_response
+
+    def __call__(self, request):
+        response = self.get_response(request)
+
+        if (
+            request.user.is_authenticated and
+            response.get('Content-Type', '').startswith('text/html') and
+            response.status_code == 200
+        ):
+            try:
+                content = response.content.decode('utf-8')
+                ping_html = render_to_string('partials/session_ping.html')
+                if '</body>' in content:
+                    content = content.replace('</body>', ping_html + '</body>')
+                    response.content = content.encode('utf-8')
+            except:
+                pass
+
+        return response
