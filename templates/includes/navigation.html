@@ -175,8 +175,13 @@
       </a>
       <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">
         <div class="dropdown-header">
-          <h4>Good Morning, <span class="small text-muted"> John Doe</span></h4>
-          <p class="text-muted">Project Admin</p>
+          {% comment %} <h4>Good Morning, <span class="small text-muted"> John Doe</span></h4> {% endcomment %}
+          {% if request.user.is_authenticated %}
+          <h4>Selamat datang, <span class="text-muted"> {{ request.user.get_full_name|default:request.user.username }}!</span></h4>
+          {% else %}
+          <p>Silakan login dulu.</p>
+          {% endif %}
+          <p class="text-muted">Project BKAD</p>
           <form class="header-search">
             <i class="ti ti-search icon-search"></i>
             <input type="search" class="form-control" placeholder="Search profile options" />
