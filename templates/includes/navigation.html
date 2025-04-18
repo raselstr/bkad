@@ -51,6 +51,13 @@
 <!-- [Mobile Media Block end] -->
 <div class="ms-auto">
   <ul class="list-unstyled">
+    <li class="pc-h-item">
+      <select class="form-select form-select-sm" id="global-year-selector" style="width: auto; min-width: 100px;">
+        {% for year in year_list %}
+          <option value="{{ year }}" {% if year == current_year %}selected{% endif %}>{{ year }}</option>
+        {% endfor %}
+      </select>
+    </li>
 
     <li class="pc-h-item">
       <label class="pc-head-link head-link-secondary arrow-none me-0">
@@ -69,7 +76,7 @@
           <a href="#!" class="link-primary float-end text-decoration-underline">Mark as all read</a>
           <h5>All Notification <span class="badge bg-warning rounded-pill ms-1">01</span></h5>
         </div>
-        <div class="dropdown-header px-0 text-wrap header-notification-scroll position-relative"
+        {% comment %} <div class="dropdown-header px-0 text-wrap header-notification-scroll position-relative"
           style="max-height: calc(100vh - 215px)">
           <div class="list-group list-group-flush w-100">
             <div class="list-group-item">
@@ -154,7 +161,7 @@
         <div class="dropdown-divider"></div>
         <div class="text-center py-2">
           <a href="#!" class="link-primary">Mark as all read</a>
-        </div>
+        </div> {% endcomment %}
       </div>
     </li>
 
@@ -176,7 +183,7 @@
           </form>
           <hr />
           <div class="profile-notification-scroll position-relative" style="max-height: calc(100vh - 280px)">
-            <div class="upgradeplan-block bg-light-warning rounded">
+            {% comment %} <div class="upgradeplan-block bg-light-warning rounded">
               <h4>Berry Bootstrap 5</h4>
               <p class="text-muted">Open-Source Theme</p>
               <a href="https://docs.appseed.us/boilerplate-code/django-templates/berry-dashboard/" target="_blank"
@@ -193,7 +200,7 @@
                 <label class="form-check-label" for="flexSwitchCheckChecked">Allow Notifications</label>
               </div>
             </div>
-            <hr />
+            <hr /> {% endcomment %}
             <a href="#" class="dropdown-item">
               <i class="ti ti-settings"></i>
               <span>Account Settings</span>

@@ -39,3 +39,15 @@
       window.location.reload()
     });
   </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const selector = document.getElementById("global-year-selector");
+      selector.addEventListener("change", function () {
+        const selectedYear = this.value;
+        const url = new URL(window.location.href);
+        url.searchParams.set("year", selectedYear);
+        window.location.href = url.toString();
+      });
+    });
+  </script>
