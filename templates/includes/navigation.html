@@ -51,13 +51,15 @@
 <!-- [Mobile Media Block end] -->
 <div class="ms-auto">
   <ul class="list-unstyled">
-    <li class="pc-h-item">
+    <li class="pc-h-item d-flex align-items-center">
+      <label for="global-year-selector" class="me-2 mb-0 text-nowrap">Tahun:</label>
       <select class="form-select form-select-sm" id="global-year-selector" style="width: auto; min-width: 100px;">
         {% for year in year_list %}
           <option value="{{ year }}" {% if year == current_year %}selected{% endif %}>{{ year }}</option>
         {% endfor %}
       </select>
     </li>
+
 
     <li class="pc-h-item">
       <label class="pc-head-link head-link-secondary arrow-none me-0">
