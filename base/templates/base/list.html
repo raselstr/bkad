@@ -1,0 +1,57 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load render_table from django_tables2 %}
+
+{% block title %} {{ page_title }} {% endblock title %}
+
+{% block content %}
+<div class="pc-container">
+  <div class="pc-content">
+
+    <div class="page-header">
+      <div class="page-block">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <div class="page-header-title">
+              <h5 class="m-b-10">{{ page_title }}</h5>
+            </div>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Base</a></li>
+              <li class="breadcrumb-item" aria-current="page">OPD</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h5>Data OPD</h5>
+            <a href="{% url 'base:create' %}"
+              class="btn btn-sm btn-primary"
+              hx-get="{% url 'base:create' %}"
+              hx-target="#modal-content"
+              hx-trigger="click"
+              hx-swap="innerHTML"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-form">
+              Tambah OPD
+            </a>
+          </div>
+          <div class="card-body">
+            {% render_table table %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% include "includes/modal_include.html" %}
+{% endblock content %}
+<script>
+  document.body.dispatchEvent(new Event("confirm_modal"));
+</script>

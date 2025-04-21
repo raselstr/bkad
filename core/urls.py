@@ -5,6 +5,7 @@ from django.views.generic import RedirectView
 from core import views
 
 urlpatterns = [
+    path('base/', include('base.urls')),
     path('umum/', include('umum.urls')),
     path('', include('home.urls')),
     path("keepalive/", views.keepalive, name="keepalive"),

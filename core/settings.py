@@ -59,6 +59,7 @@ INSTALLED_APPS = [
 
     "home",
     "umum",
+    "base",
 ]
 
 MIDDLEWARE = [

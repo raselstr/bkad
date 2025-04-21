@@ -32,11 +32,14 @@
   </script>
 
   <script>
-    document.body.addEventListener("confirm_modal", function () {
-      const modalEl = document.getElementById("modal-form");
-      const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
-      modal.hide();
-      window.location.reload()
+    document.body.addEventListener("htmx:afterRequest", function (event) {
+      const trigger = event.detail.xhr.getResponseHeader("HX-Trigger");
+      if (trigger === "confirm_modal") {
+        const modalEl = document.getElementById("modal-form");
+        const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+        modal.hide();
+        window.location.reload();
+      }
     });
   </script>
 
