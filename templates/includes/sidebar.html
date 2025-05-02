@@ -1,5 +1,4 @@
-{% load i18n static admin_berry %}
-
+{% load i18n static admin_berry menu_tags %}
 <!-- [ Sidebar Menu ] start -->
 <nav class="pc-sidebar">
   <div class="navbar-wrapper">
@@ -25,7 +24,7 @@
             <span class="pc-micon"><i class="ti ti-dashboard"></i></span>
             <span class="pc-mtext">Halaman Depan</span></a>
         </li>
-
+        {% comment %} <p>Current path: {{ request.path }}</p> {% endcomment %}
         {% admin_get_menu as app_list %}
         {% if app_list %}
           {% for app in app_list %}
@@ -36,11 +35,12 @@
                 <span class="pc-mtext">{{ app.label|slice:15 }}{% if app.label|length > 15 %}..{% endif %}</span>
                 <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
               </a>
+              
               {% if app.models %}
                 <ul class="pc-submenu">
                   {% for model in app.models %}
                   {% if model.url %}
-                  <li class="pc-item">
+                  <li class="pc-item {% if request.path == model.url %}active{% endif %}">
                     <a class="pc-link" href="{{ model.url }}">
                       {{ model.label }}
                     </a>
