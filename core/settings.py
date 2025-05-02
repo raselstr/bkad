@@ -36,7 +36,13 @@ DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
 
 # Add here your deployment HOSTS
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000', 'http://localhost:5085', 'http://127.0.0.1:8000', 'http://127.0.0.1:5085']
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:8000', 
+    'http://localhost:5085', 
+    'http://127.0.0.1:8000', 
+    'http://127.0.0.1:5085',
+    'http://192.168.66.5:5085',
+    ]
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
 
