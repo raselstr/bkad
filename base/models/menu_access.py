@@ -34,17 +34,15 @@ class RolePermission(models.Model):
         return f"Role {self.role} - Akses ke {self.menu} > {self.submenu or '-'}"
     
 class MenuAccess(models.Model):
-    menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
-    submenu = models.ForeignKey(SubMenu, on_delete=models.CASCADE, null=True, blank=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
     role = models.ForeignKey(Role, on_delete=models.CASCADE, null=True, blank=True)
     opd = models.ForeignKey(OPD, on_delete=models.CASCADE)
 
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=['menu', 'submenu', 'user', 'role', 'opd'], name='unique_menu_access')
+            models.UniqueConstraint(fields=['user', 'role', 'opd'], name='unique_menu_access')
         ]
         
 
     def __str__(self):
-        return f"Akses: {self.menu} - {self.submenu or '-'} untuk {self.user or self.group or self.role} di {self.opd}"
+        return f"Akses: {self.user or self.group } -> {self.role} untuk opd {self.opd}"

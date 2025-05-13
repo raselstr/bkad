@@ -6,8 +6,7 @@ services:
     env_file:
       - .env
     networks:
-      app-network:
-        ipv4_address: 10.10.10.14
+      - app-network
     depends_on:
       db-center:
         condition: service_healthy
@@ -21,8 +20,7 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
     networks:
-      app-network:
-        ipv4_address: 10.10.10.15
+      - app-network
     depends_on: 
       - bkad-app
   
@@ -33,8 +31,7 @@ services:
     ports:
       - "8081:8080"
     networks:
-      app-network:
-        ipv4_address: 10.10.10.16
+      - app-network
 
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8081"]
@@ -51,8 +48,7 @@ services:
     ports:
       - "5433:5432"  # Gunakan port berbeda dari database di YML 1
     networks:
-      app-network:
-        ipv4_address: 10.10.10.17
+      - app-network
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - /home/serverbkad/database:/database
@@ -67,7 +63,4 @@ volumes:
 networks:
   app-network:
     driver: bridge
-    ipam:
-      config:
-        - subnet: 10.10.10.0/24
  

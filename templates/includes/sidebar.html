@@ -1,4 +1,4 @@
-{% load i18n static admin_berry menu_tags %}
+{% load i18n static admin_berry %}
 <!-- [ Sidebar Menu ] start -->
 <nav class="pc-sidebar">
   <div class="navbar-wrapper">
@@ -118,6 +118,39 @@
         <li class="pc-item">
           <a href="https://github.com/app-generator/django-admin-berry" target="_blank" class="pc-link"><span
               class="pc-micon"><i class="ti ti-vocabulary"></i></span><span class="pc-mtext">DOCS</span></a></li>
+              {% if role_menus %}
+              {% for menu in role_menus %}
+              <li class="pc-item pc-caption">
+                <label>{{ menu.menu_name }}</label>
+                <i class="ti ti-menu"></i>
+              </li>
+              
+              <li class="pc-item pc-hasmenu">
+                <a href="#submenu{{ forloop.counter }}" class="pc-link" data-bs-toggle="collapse" aria-expanded="false" 
+                   aria-controls="submenu{{ forloop.counter }}">
+                  <span class="pc-micon"><i class="ti {{ menu.menu_icon }}"></i></span>
+                  <span class="pc-mtext">{{ menu.menu_name }}</span>
+                  {% if menu.submenus %}
+                  <span class="pc-arrow"><i class="ti ti-chevron-right"></i></span>
+                  {% endif %}
+                </a>
+              
+                {% if menu.submenus %}
+                <ul id="submenu{{ forloop.counter }}" class="pc-submenu collapse">
+                  {% for submenu in menu.submenus %}
+                  <li class="pc-item">
+                    <a href="{{ submenu.url }}" class="pc-link">
+                      <span class="pc-micon"><i class="ti {{ submenu.icon }}"></i></span>
+                      <span class="pc-mtext">{{ submenu.name }}</span>
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
+              {% endfor %}
+              {% endif %}
+              
       </ul>
 
       {% comment %} <div class="pc-navbar-card bg-primary rounded">
