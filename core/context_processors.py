@@ -38,7 +38,7 @@ def role_menus(request):
         menu_dict = {}
         for perm in permissions:
             menu_name = perm.menu.nama
-            # menu_icon = perm.menu.icon
+            menu_icon = perm.menu.ikon
             submenu_name = perm.submenu.nama if perm.submenu else None
             submenu_url = perm.submenu.url if perm.submenu else None
             # submenu_icon = perm.submenu.icon if perm.submenu else None
@@ -46,7 +46,7 @@ def role_menus(request):
             if menu_name not in menu_dict:
                 menu_dict[menu_name] = {
                     'menu_name': menu_name,
-                    # 'menu_icon': menu_icon,
+                    'menu_icon': menu_icon,
                     'submenus': []
                 }
 

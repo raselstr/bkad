@@ -1,0 +1,46 @@
+2025-05-18 17:04:31,134 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:04:33,844 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:04:34,387 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:06:52,440 - D:\app\rencana\bkad\middlewares\access_logger.py changed, reloading.
+2025-05-18 17:08:35,007 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:08:35,306 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:14:24,898 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,951 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,960 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,970 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,979 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,989 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:24,999 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,010 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,023 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,034 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,046 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,056 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,067 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,076 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,086 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,096 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,106 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,117 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,126 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,136 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,147 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 21 in 1 minute
+2025-05-18 17:14:25,147 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,159 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 22 in 1 minute
+2025-05-18 17:14:25,159 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,170 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 23 in 1 minute
+2025-05-18 17:14:25,171 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,182 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 24 in 1 minute
+2025-05-18 17:14:25,182 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,191 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 25 in 1 minute
+2025-05-18 17:14:25,192 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,203 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 26 in 1 minute
+2025-05-18 17:14:25,203 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,256 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 27 in 1 minute
+2025-05-18 17:14:25,256 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,266 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 28 in 1 minute
+2025-05-18 17:14:25,268 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,279 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 29 in 1 minute
+2025-05-18 17:14:25,279 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:14:25,288 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 30 in 1 minute
+2025-05-18 17:14:25,288 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests

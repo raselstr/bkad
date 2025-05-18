@@ -82,6 +82,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django_htmx.middleware.HtmxMiddleware",
     "core.middleware.SessionPingInjectorMiddleware",
+    "middlewares.access_logger.AccessLoggerMiddleware",
 ]
 
 ROOT_URLCONF = "core.urls"
