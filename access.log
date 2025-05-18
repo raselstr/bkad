@@ -44,3 +44,7 @@
 2025-05-18 17:14:25,279 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
 2025-05-18 17:14:25,288 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 30 in 1 minute
 2025-05-18 17:14:25,288 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 17:17:01,888 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:17:04,847 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:17:05,934 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-18 17:17:12,461 - IP: 127.0.0.1, Method: GET, Path: /color/, Device: PC, OS: Windows, Browser: Chrome
