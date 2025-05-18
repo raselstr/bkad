@@ -219,3 +219,43 @@
 2025-05-18 18:00:35,411 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
 2025-05-18 18:00:35,431 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 30 in 1 minute
 2025-05-18 18:00:39,010 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,494 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,504 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,516 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,526 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,536 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,546 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,554 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,565 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,577 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,588 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,600 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,614 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,624 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,636 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,649 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,660 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,669 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,680 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,688 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,698 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:21,705 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 21 in 1 minute
+2025-05-18 18:03:25,319 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:25,336 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 22 in 1 minute
+2025-05-18 18:03:29,104 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:29,120 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 23 in 1 minute
+2025-05-18 18:03:33,092 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:33,102 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 24 in 1 minute
+2025-05-18 18:03:36,812 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:36,824 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 25 in 1 minute
+2025-05-18 18:03:40,463 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:40,470 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 26 in 1 minute
+2025-05-18 18:03:44,215 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:44,234 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 27 in 1 minute
+2025-05-18 18:03:47,759 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:47,778 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 28 in 1 minute
+2025-05-18 18:03:51,491 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:51,509 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 29 in 1 minute
+2025-05-18 18:03:55,327 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
+2025-05-18 18:03:55,347 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests, Access Count: 30 in 1 minute
+2025-05-18 18:03:58,969 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: Mobile, OS: Other, Browser: Python Requests
