@@ -4,6 +4,7 @@ from user_agents import parse
 from datetime import datetime, timedelta
 from collections import defaultdict
 from django.core.mail import send_mail
+from django.conf import settings
 
 # Logger untuk mencatat akses mencurigakan
 logger = logging.getLogger("access_logger")
@@ -61,10 +62,14 @@ class AccessLoggerMiddleware(MiddlewareMixin):
         return None
 
     def send_alert_email(self, message):
-        send_mail(
-            'Django Suspicious Access Alert',
-            message,
-            'str.rasel29@gmail.com',  # Ganti dengan email pengirim yang valid
-            ['str.rasel83@gmail.com'],     # Ganti dengan email penerima alert
-            fail_silently=False,
-        )
+        try:
+            send_mail(
+                'Django Suspicious Access Alert',
+                message,
+                settings.EMAIL_HOST_USER,  # Akses email dari settings
+                ['str.rasel83@gmail.com'],  # Email penerima
+                fail_silently=False,
+            )
+            logger.info("Alert email sent successfully.")
+        except Exception as e:
+            logger.error(f"Failed to send alert email: {e}")
