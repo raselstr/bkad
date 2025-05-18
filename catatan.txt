@@ -6,3 +6,4 @@ membuat requirement.txt
 
 Jika FIle entrypoint.sh tidak ditemukan, Line endings file entrypoint.sh salah (misalnya pakai CRLF dari Windows, bukan LF untuk Linux).
 
+uwyr xpbt xlem jrcn

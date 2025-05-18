@@ -3,6 +3,7 @@ from django.utils.deprecation import MiddlewareMixin
 from user_agents import parse
 from datetime import datetime, timedelta
 from collections import defaultdict
+from django.core.mail import send_mail
 
 # Logger untuk mencatat akses mencurigakan
 logger = logging.getLogger("access_logger")
@@ -20,16 +21,20 @@ access_count = defaultdict(list)
 THRESHOLD = 20  # Maksimal 20 akses per menit dari IP yang sama
 
 class AccessLoggerMiddleware(MiddlewareMixin):
+
     def process_request(self, request):
         user_agent_str = request.META.get('HTTP_USER_AGENT', '')
         user_agent = parse(user_agent_str)
 
         ip_address = request.META.get('REMOTE_ADDR')
+        if not ip_address:
+            ip_address = 'unknown'
+
         method = request.method
         path = request.path
         now = datetime.now()
 
-        # Hitung jumlah akses dari IP dalam satu menit terakhir
+        # Bersihkan akses yang lebih dari 1 menit
         access_count[ip_address] = [
             timestamp for timestamp in access_count[ip_address]
             if now - timestamp < timedelta(minutes=1)
@@ -44,6 +49,7 @@ class AccessLoggerMiddleware(MiddlewareMixin):
                 f"Browser: {user_agent.browser.family}, Access Count: {len(access_count[ip_address])} in 1 minute"
             )
             logger.warning(warning_message)
+            self.send_alert_email(warning_message)
 
         # Log akses normal
         log_message = (
@@ -51,4 +57,14 @@ class AccessLoggerMiddleware(MiddlewareMixin):
             f"Device: {'PC' if user_agent.is_pc else 'Mobile'}, OS: {user_agent.os.family}, Browser: {user_agent.browser.family}"
         )
         logger.info(log_message)
+
         return None
+
+    def send_alert_email(self, message):
+        send_mail(
+            'Django Suspicious Access Alert',
+            message,
+            'str.rasel29@gmail.com',  # Ganti dengan email pengirim yang valid
+            ['str.rasel83@gmail.com'],     # Ganti dengan email penerima alert
+            fail_silently=False,
+        )

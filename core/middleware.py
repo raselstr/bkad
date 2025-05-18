@@ -6,6 +6,7 @@ from django.contrib.auth import logout
 from django.urls import resolve
 from django.template.loader import render_to_string
 
+
 class LoginRequiredMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
@@ -76,3 +77,4 @@ class SessionPingInjectorMiddleware:
                 pass
 
         return response
+
