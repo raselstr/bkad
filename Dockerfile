@@ -41,7 +41,7 @@ RUN chown -R django:django /app
 USER django
 
 # Jalankan entrypoint
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["bash","./entrypoint.sh"]
 
 # Command default setelah entrypoint jalan
 CMD ["gunicorn", "--bind", "0.0.0.0:5005", "core.wsgi:application"]
