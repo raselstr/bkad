@@ -177,6 +177,9 @@ if not DEBUG:
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# Deteksi protokol dari header Nginx
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 SESSION_COOKIE_AGE = 300
 SESSION_SAVE_EVERY_REQUEST = True
 
