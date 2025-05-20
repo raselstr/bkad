@@ -264,3 +264,500 @@
 2025-05-18 18:09:29,860 - D:\app\rencana\bkad\middlewares\access_logger.py changed, reloading.
 2025-05-18 18:10:09,022 - D:\app\rencana\bkad\middlewares\access_logger.py changed, reloading.
 2025-05-18 18:10:41,550 - D:\app\rencana\bkad\core\settings.py changed, reloading.
+2025-05-20 15:32:03,549 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:32:09,240 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:32:21,467 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:32:32,893 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:33:55,528 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:35:01,004 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:37:33,009 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:38:10,764 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:38:11,436 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:38:17,463 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:10,730 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:10,921 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:12,705 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:25,488 - IP: 127.0.0.1, Method: POST, Path: /admin/base/opd/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:25,541 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:25,689 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:29,088 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:29,203 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:30,684 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:36,451 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:39:38,975 - IP: 127.0.0.1, Method: GET, Path: /icon-tabler/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:06,216 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:06,279 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:06,398 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:17,553 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:17,675 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:19,305 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:19,412 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:40:25,021 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:01,197 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:01,240 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:01,354 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:34,123 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:34,265 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:35,602 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:49,083 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:49,135 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:49,239 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:41:52,320 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:42:16,282 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:42:16,349 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:42:16,457 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:07,574 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:07,736 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:09,940 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:17,785 - IP: 127.0.0.1, Method: POST, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:17,852 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:17,990 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:20,866 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:38,902 - IP: 127.0.0.1, Method: POST, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:38,965 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:39,092 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:39,955 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:57,667 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:57,762 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:44:59,139 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:22,654 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:22,717 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:22,873 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:27,972 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:28,081 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:30,662 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:54,702 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:54,785 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:54,897 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:45:59,393 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:49:40,949 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:50:59,569 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:31,165 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:37,128 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/3/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:44,140 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/3/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:44,190 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:44,303 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:52:58,971 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:53:52,285 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:53:52,345 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:53:52,483 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:12,984 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:29,254 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:29,306 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:29,434 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:35,168 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/5/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:41,941 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:42,802 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/5/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:42,862 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:54:42,978 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:07,292 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:34,161 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:34,205 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:34,340 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:38,189 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/6/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:41,684 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/6/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:41,755 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:55:41,877 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:00,755 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:14,965 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:15,027 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:15,139 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:34,337 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:34,451 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:35,825 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:52,118 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:52,247 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:56:54,219 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/1/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:06,517 - IP: 127.0.0.1, Method: POST, Path: /admin/base/opd/1/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:06,584 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:06,690 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:09,694 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:09,798 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:13,153 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:13,284 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:14,454 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/1/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:19,664 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:21,272 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:35,337 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:35,392 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:35,509 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:57:37,470 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:01,515 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:01,600 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:01,728 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:18,789 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:47,612 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:47,675 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:47,806 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:58:53,190 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:06,982 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:07,054 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:07,190 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:08,804 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:19,702 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:19,782 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:19,911 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:21,126 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:35,154 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:41,412 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:41,479 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:41,604 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:42,944 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 15:59:46,274 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:00,824 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:00,905 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:01,065 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:04,463 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:11,487 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:11,545 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:11,705 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:13,490 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:33,785 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:33,870 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:34,031 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:35,805 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:47,865 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:47,924 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:48,090 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:49,431 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:57,354 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:57,413 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:00:57,587 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:03,485 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:03,602 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:05,047 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:11,333 - IP: 127.0.0.1, Method: POST, Path: /admin/base/role/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:11,395 - IP: 127.0.0.1, Method: GET, Path: /admin/base/role/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:11,547 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:13,170 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:13,336 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:14,841 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:27,071 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome, Access Count: 21 in 1 minute
+2025-05-20 16:01:33,393 - SUSPICIOUS ACCESS: IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome, Access Count: 22 in 1 minute
+2025-05-20 16:01:48,203 - Failed to send alert email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 16:01:48,204 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:52,408 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:01:54,458 - Failed to send alert email: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 16:01:54,459 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:05,419 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:07,267 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:11,965 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:12,144 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:17,961 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:18,067 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:02:19,465 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:04:13,462 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:04:13,532 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:04:13,675 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:04:43,963 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:28,582 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:28,647 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:28,700 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:28,764 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:58,922 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:07:59,067 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:00,761 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:13,295 - IP: 127.0.0.1, Method: POST, Path: /admin/auth/user/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:29,727 - IP: 127.0.0.1, Method: POST, Path: /admin/auth/user/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:30,387 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:44,549 - IP: 127.0.0.1, Method: POST, Path: /admin/auth/user/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:44,627 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:44,734 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:50,323 - IP: 127.0.0.1, Method: GET, Path: /admin/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:50,345 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:57,775 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:08:58,486 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:09:44,944 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:09:46,722 - IP: 127.0.0.1, Method: GET, Path: /accounts/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:09:46,752 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:29,522 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:30,256 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:34,757 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:34,868 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:36,557 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:47,534 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:47,612 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:10:47,719 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:10,603 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:10,711 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:12,462 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:25,782 - IP: 127.0.0.1, Method: POST, Path: /admin/auth/user/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:26,422 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/3/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:28,737 - IP: 127.0.0.1, Method: POST, Path: /admin/auth/user/3/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:28,815 - IP: 127.0.0.1, Method: GET, Path: /admin/auth/user/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:28,953 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:33,225 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:33,358 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:35,190 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:41,273 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menuaccess/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:41,339 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:41,475 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:55,665 - IP: 127.0.0.1, Method: GET, Path: /admin/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:11:55,690 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:12:04,853 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:12:05,551 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:12:10,936 - IP: 127.0.0.1, Method: GET, Path: /spj, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:12:11,035 - Not Found: /spj
+2025-05-20 16:12:11,172 - IP: 127.0.0.1, Method: GET, Path: /favicon.ico, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:12:11,184 - Not Found: /favicon.ico
+2025-05-20 16:15:39,963 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:17:05,714 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:20:41,387 - IP: 127.0.0.1, Method: GET, Path: /accounts/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:20:41,401 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:20:50,488 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:20:51,315 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:00,067 - IP: 127.0.0.1, Method: GET, Path: /pejabat, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:00,081 - Not Found: /pejabat
+2025-05-20 16:21:05,713 - IP: 127.0.0.1, Method: GET, Path: /accounts/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:05,725 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:15,269 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:15,957 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:21:39,948 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:06,152 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:06,300 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:16,933 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/6/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:25,627 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/6/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:25,689 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:25,825 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:33,234 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/5/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:40,430 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/5/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:40,494 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:40,613 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:42,847 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/4/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:57,759 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/4/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:57,808 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:22:57,948 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:23:17,317 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:23:22,579 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:23:22,636 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:23:22,805 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:26:39,954 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:28:22,951 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:32:39,984 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:33:23,983 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:38:24,975 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:38:39,979 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:43:26,010 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:43:40,019 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:48:27,036 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:48:40,061 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:53:27,077 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:54:40,062 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:58:27,101 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 16:59:40,088 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 17:00:28,475 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:13,247 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:21,107 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:22,491 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:27,440 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:27,564 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:47,065 - IP: 127.0.0.1, Method: GET, Path: /opd, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:57:47,079 - Not Found: /opd
+2025-05-20 19:58:05,431 - IP: 127.0.0.1, Method: GET, Path: /base/opd, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:58:05,489 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:58:16,983 - IP: 127.0.0.1, Method: GET, Path: /base/opd/1/ubah/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:58:48,590 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:58:48,718 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:58:51,232 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:14,234 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:14,298 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:14,423 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:25,323 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:25,450 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:33,436 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/1/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:44,972 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:45,171 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:47,922 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:58,058 - IP: 127.0.0.1, Method: POST, Path: /admin/base/rolepermission/add/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:58,135 - IP: 127.0.0.1, Method: GET, Path: /admin/base/rolepermission/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 19:59:58,340 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:21,603 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:21,717 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:23,916 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/8/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:35,467 - IP: 127.0.0.1, Method: POST, Path: /admin/base/submenu/8/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:35,522 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:35,666 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:55,893 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:55,935 - IP: 127.0.0.1, Method: GET, Path: /admin/base/submenu/base/opd/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:00:55,986 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:03,243 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:03,366 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:28,373 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:28,538 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:35,408 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:42,650 - IP: 127.0.0.1, Method: POST, Path: /admin/base/menuaccess/2/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:42,734 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:42,920 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:46,810 - IP: 127.0.0.1, Method: GET, Path: /admin/logout/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:46,833 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:55,591 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:01:56,296 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:02:01,559 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:07:01,684 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:07:14,310 - Not Found: /base/opd/base/opd/
+2025-05-20 20:12:02,358 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:12:24,175 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:12:34,040 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:12:34,763 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-20 20:12:35,139 - Internal Server Error: /
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: 'model.url|reverse_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\home\views.py", line 10, in index
+    return render(request, 'pages/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 206, in select_template
+    return self.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\smartif.py", line 181, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 698, in __init__
+    filter_func = parser.find_filter(filter_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 606, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'reverse_url'
+2025-05-20 20:12:41,860 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
