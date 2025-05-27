@@ -89,6 +89,7 @@ services:
 
 volumes:
   postgres_data:
+  esdata:
 networks:
   app-network:
     driver: bridge
