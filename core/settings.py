@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     "home",
     "umum",
     "base",
+    "dokumen",
 ]
 
 MIDDLEWARE = [
@@ -198,3 +199,13 @@ EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 
 # Alamat pengirim default
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+INSTALLED_APPS += [
+    'django_elasticsearch_dsl',
+]
+
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': 'http://elasticsearch:9200'
+    }
+}

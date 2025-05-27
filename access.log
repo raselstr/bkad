@@ -761,3 +761,21 @@ Traceback (most recent call last):
     raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
 django.template.exceptions.TemplateSyntaxError: Invalid filter: 'reverse_url'
 2025-05-20 20:12:41,860 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:53:29,955 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:54:26,757 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:54:41,877 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:54:42,570 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:54:50,226 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:02,844 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:03,090 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:12,872 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:12,914 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:12,951 - IP: 127.0.0.1, Method: GET, Path: /admin/base/menuaccess/pegawai/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 18:57:12,987 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:02:13,841 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:07:14,833 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:12:14,835 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:17:15,834 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:22:16,835 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:27:17,837 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-27 19:33:03,829 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
