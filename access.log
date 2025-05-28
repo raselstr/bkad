@@ -1104,3 +1104,11 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: search_results.html
 2025-05-28 09:53:28,728 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-05-28 09:53:34,768 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:53:34,795 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.025s]
+2025-05-28 09:53:54,892 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:53:54,903 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.010s]
+2025-05-28 09:54:03,816 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:54:03,864 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.049s]
+2025-05-28 09:54:16,414 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:54:16,426 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.012s]
