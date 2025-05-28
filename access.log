@@ -1065,3 +1065,42 @@ Traceback (most recent call last):
 elastic_transport.ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NameResolutionError(<urllib3.connection.HTTPConnection object at 0x000001CABFBE6F90>: Failed to resolve 'elasticsearch' ([Errno 11001] getaddrinfo failed)))
 2025-05-27 20:30:59,263 - IP: 127.0.0.1, Method: GET, Path: /favicon.ico, Device: PC, OS: Windows, Browser: Chrome
 2025-05-27 20:30:59,279 - Not Found: /favicon.ico
+2025-05-28 09:18:41,253 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:18:48,157 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:18:49,029 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:23:50,171 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:28:51,160 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:30:11,158 - H:\app\rancangan\bkad\core\settings.py changed, reloading.
+2025-05-28 09:30:30,727 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:30:38,415 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:30:39,060 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:49:55,859 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:02,669 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:03,717 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:16,798 - IP: 127.0.0.1, Method: GET, Path: /search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:17,009 - Not Found: /search/
+2025-05-28 09:50:17,135 - IP: 127.0.0.1, Method: GET, Path: /favicon.ico, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:17,147 - Not Found: /favicon.ico
+2025-05-28 09:50:26,128 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-05-28 09:50:26,354 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.224s]
+2025-05-28 09:50:26,497 - Internal Server Error: /search/search/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 17, in search_view
+    return render(request, 'search_results.html', {'results': results, 'query': query})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: search_results.html
+2025-05-28 09:53:28,728 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.

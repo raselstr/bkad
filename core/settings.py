@@ -206,6 +206,6 @@ INSTALLED_APPS += [
 
 ELASTICSEARCH_DSL = {
     'default': {
-        'hosts': 'http://elasticsearch:9200'
+        'hosts': os.environ.get('ELASTICSEARCH_URL', 'http://localhost:9200')
     }
 }

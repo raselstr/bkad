@@ -14,4 +14,4 @@ def search_view(request):
         response = search.execute()
         results = response.hits
 
-    return render(request, 'search_results.html', {'results': results, 'query': query})
+    return render(request, 'dokumen/search_results.html', {'results': results, 'query': query})
