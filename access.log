@@ -1383,3 +1383,31 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2025-06-10 19:51:13,009 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
 2025-06-10 19:51:53,786 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
 2025-06-10 19:53:33,524 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:53:37,088 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:54:48,898 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:56:42,595 - IP: 127.0.0.1, Method: GET, Path: /.well-known/appspecific/com.chrome.devtools.json, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:56:42,614 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-06-10 20:00:00,231 - IP: 127.0.0.1, Method: GET, Path: /keepalive/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:02:12,892 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:06:00,761 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:07:00,594 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:07:22,756 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:07:50,957 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:09:25,466 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:32,919 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:33,093 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:48,858 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:49,020 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:55,903 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:55,954 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/base/opd/change/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:10:56,008 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:00,380 - IP: 127.0.0.1, Method: GET, Path: /admin/pejabat, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:00,400 - Not Found: /admin/pejabat
+2025-06-10 20:11:02,264 - IP: 127.0.0.1, Method: GET, Path: /admin/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:10,054 - IP: 127.0.0.1, Method: GET, Path: /admin/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:10,223 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:14,660 - IP: 127.0.0.1, Method: GET, Path: /opd, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:14,673 - Not Found: /opd
+2025-06-10 20:11:22,232 - IP: 127.0.0.1, Method: GET, Path: /base/opd, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:22,287 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:11:44,064 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
