@@ -1112,3 +1112,274 @@ django.template.exceptions.TemplateDoesNotExist: search_results.html
 2025-05-28 09:54:03,864 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.049s]
 2025-05-28 09:54:16,414 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
 2025-05-28 09:54:16,426 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.012s]
+2025-06-10 19:03:42,167 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:03:52,701 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:04:59,532 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:05:00,284 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:05:05,405 - IP: 127.0.0.1, Method: GET, Path: /admin/dokumen/document/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:05:05,748 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:15:03,191 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:15:07,229 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:15:19,829 - H:\app\rancangan\bkad\dokumen\urls.py changed, reloading.
+2025-06-10 19:15:24,885 - H:\app\rancangan\bkad\dokumen\urls.py changed, reloading.
+2025-06-10 19:15:31,566 - H:\app\rancangan\bkad\dokumen\urls.py changed, reloading.
+2025-06-10 19:15:40,995 - H:\app\rancangan\bkad\dokumen\urls.py changed, reloading.
+2025-06-10 19:15:52,162 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:02,008 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:02,863 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:07,650 - IP: 127.0.0.1, Method: GET, Path: /admin/dokumen/document/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:07,799 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:27,552 - IP: 127.0.0.1, Method: GET, Path: /dokumen/excel, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:27,752 - Not Found: /dokumen/excel
+2025-06-10 19:16:27,909 - IP: 127.0.0.1, Method: GET, Path: /favicon.ico, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:16:27,928 - Not Found: /favicon.ico
+2025-06-10 19:17:07,521 - IP: 127.0.0.1, Method: GET, Path: /search/excel, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:17:07,595 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:17:07,695 - Internal Server Error: /search/excel/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 23, in excel_table_view
+    df = pd.read_excel('data.xlsx')  # Path ke file Excel kamu
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data.xlsx'
+2025-06-10 19:17:45,718 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:17:52,160 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:18:04,542 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:18:04,726 - Internal Server Error: /search/excel/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 23, in excel_table_view
+    df = pd.read_excel('D:\Cloud\2025\REALISASI 2025\Realisasi\06 Juni.xlsx')  # Path ke file Excel kamu
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Cloud\x825\\REALISASI 2025\\Realisasi\x06 Junidata.xlsx'
+2025-06-10 19:18:06,123 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:18:06,165 - Internal Server Error: /search/excel/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 23, in excel_table_view
+    df = pd.read_excel('D:\Cloud\2025\REALISASI 2025\Realisasi\06 Juni.xlsx')  # Path ke file Excel kamu
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Cloud\x825\\REALISASI 2025\\Realisasi\x06 Junidata.xlsx'
+2025-06-10 19:18:11,881 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:18:18,098 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:18:23,839 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:18:29,543 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:18:35,616 - Internal Server Error: /search/excel/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 32, in excel_table_view
+    return render(request, 'dokumen/excel_table.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[col]' from 'row[col]'
+2025-06-10 19:44:04,139 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:44:09,715 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:44:10,464 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:44:16,690 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:44:21,658 - Internal Server Error: /search/excel/
+Traceback (most recent call last):
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\bkad\dokumen\views.py", line 32, in excel_table_view
+    return render(request, 'dokumen/excel_table.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\app\rancangan\env\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[col]' from 'row[col]'
+2025-06-10 19:48:26,573 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:48:30,851 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:48:35,945 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:48:42,185 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:49:17,429 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:49:22,740 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:49:23,426 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:49:30,060 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:50:59,779 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:51:13,009 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 19:51:53,786 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 19:53:33,524 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
