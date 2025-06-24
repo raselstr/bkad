@@ -26,16 +26,20 @@ def search_view(request):
 def excel_table_view(request):
     df = pd.read_excel('D:/Cloud/2025/REALISASI 2025/Realisasi/06 Juni.xlsx')
 
-    # Buat table class dinamis dari kolom-kolom di DataFrame
-    class ExcelTable(tables.Table):
-        class Meta:
-            attrs = {"class": "table table-bordered table-striped"}
+    # Buat kolom untuk tabel dari DataFrame
+    columns = {col: tables.Column(verbose_name=col) for col in df.columns}
 
-    for col in df.columns:
-        ExcelTable.base_columns[col] = tables.Column(verbose_name=col)
+    # Buat class tabel secara dinamis
+    ExcelTable = type('ExcelTable', (tables.Table,), {
+        **columns,
+        'Meta': type('Meta', (), {'attrs': {'class': 'table table-bordered table-striped'}})
+    })
 
+    # Buat instance tabel dengan data
     table = ExcelTable(df.to_dict(orient='records'))
+    # RequestConfig(request).configure(table) # Uncomment if you want to enable pagination and sorting
 
     return render(request, 'dokumen/excel_table.html', {
-        'table': table
+        'table': table,
+        'page_title': 'Tabel Excel'
     })

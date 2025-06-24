@@ -1411,3 +1411,118 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 2025-06-10 20:11:22,232 - IP: 127.0.0.1, Method: GET, Path: /base/opd, Device: PC, OS: Windows, Browser: Chrome
 2025-06-10 20:11:22,287 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
 2025-06-10 20:11:44,064 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:15:20,994 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 20:15:27,930 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 20:15:34,246 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 20:15:40,443 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 20:15:54,696 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-10 20:15:58,661 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:16:55,431 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-10 20:21:40,272 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-24 08:10:45,232 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:10:56,122 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:10:57,849 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:11:06,203 - IP: 127.0.0.1, Method: GET, Path: /admin/dokumen/document/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:11:06,537 - IP: 127.0.0.1, Method: GET, Path: /admin/jsi18n/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:14:45,162 - IP: 127.0.0.1, Method: GET, Path: /search/excel, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:14:45,404 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:20:09,871 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:15,359 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:22,622 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:23,550 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:34,196 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:34,363 - IP: 127.0.0.1, Method: GET, Path: /favicon.ico, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:34,383 - Not Found: /favicon.ico
+2025-06-24 08:21:36,255 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:38,463 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:57,735 - IP: 127.0.0.1, Method: GET, Path: /search/search/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:21:57,860 - POST http://host.docker.internal:9200/documents/_search [status:200 duration:0.121s]
+2025-06-24 08:58:56,267 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:59:14,172 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 08:59:15,049 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:04:15,231 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:09:16,160 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:14:17,173 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:19:18,168 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:24:19,169 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:29:20,173 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:35:05,155 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:40:05,175 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:46:05,161 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:51:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 09:56:05,166 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:01:05,177 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:06:05,185 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:11:05,207 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:17:05,164 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:22:05,177 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:28:05,163 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:33:05,171 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:39:05,168 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:45:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:51:05,164 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 10:56:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:02:05,158 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:07:05,171 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:13:05,163 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:18:05,177 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:24:05,166 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:30:05,169 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:35:05,166 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:40:05,182 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:46:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:52:05,166 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 11:58:05,159 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:03:05,196 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:09:05,168 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:14:05,167 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:20:05,170 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:26:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:32:05,164 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:37:05,181 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:43:05,167 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:49:05,167 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 12:55:05,160 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:00:05,157 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:05:05,172 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:11:05,163 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:16:05,168 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:21:05,176 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:27:05,165 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:33:05,153 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:38:05,168 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:44:05,158 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:49:05,170 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 13:54:05,167 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:00,590 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:00,613 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:08,390 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:08,397 - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+2025-06-24 16:35:14,710 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:14,712 - Forbidden (CSRF token from POST incorrect.): /accounts/login/
+2025-06-24 16:35:33,604 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:38,838 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:39,760 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:35:59,502 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:36:10,662 - IP: 127.0.0.1, Method: GET, Path: /base/opd/base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:36:10,810 - Not Found: /base/opd/base/opd/
+2025-06-24 16:36:16,245 - IP: 127.0.0.1, Method: GET, Path: /base/opd/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:36:44,620 - IP: 127.0.0.1, Method: GET, Path: /search/excel, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:36:44,675 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:40:54,764 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:42:59,363 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:44:03,377 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:47:36,456 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:48:47,105 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:54:08,166 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:55:00,852 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-24 16:55:05,517 - IP: 127.0.0.1, Method: GET, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:55:11,715 - IP: 127.0.0.1, Method: POST, Path: /accounts/login/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:55:12,457 - IP: 127.0.0.1, Method: GET, Path: /, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:55:21,783 - IP: 127.0.0.1, Method: GET, Path: /search/excel, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:55:21,832 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:57:38,651 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-24 16:57:42,858 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:57:58,911 - IP: 127.0.0.1, Method: GET, Path: /search/excel/, Device: PC, OS: Windows, Browser: Chrome
+2025-06-24 16:58:18,028 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
+2025-06-24 16:58:21,447 - H:\app\rancangan\bkad\dokumen\views.py changed, reloading.
